@@ -19,4 +19,4 @@ There are also steam workshop uploads for [master](https://steamcommunity.com/sh
 
 
 ## Need help
-If you encounter any bugs with these builds make sure they do not result from incomplete features. If they do not, feel free to open an [issue](https://github.com/acemod/ACE3/issues). Make sure you follow the [contribution guidelines](https://github.com/acemod/ACE3/blob/master/.github/CONTRIBUTING.md) from ACE and fill out the issue template carefully. Especially make sure to provide the __correct commit hash and branch__. If you need further help please see [get in touch](https://github.com/acemod/ACE3#get-in-touch).
+If you encounter any bugs with these builds make sure they do not result from incomplete features. If they do not, feel free to open an [issue](https://github.com/acemod/ACE3/issues) at the ace3 repository. Make sure you follow there [contribution guidelines](https://github.com/acemod/ACE3/blob/master/.github/CONTRIBUTING.md) and fill out the issue template carefully. Especially make sure to provide the __correct commit hash and branch__. If you need further help please see [get in touch](https://github.com/acemod/ACE3#get-in-touch).
