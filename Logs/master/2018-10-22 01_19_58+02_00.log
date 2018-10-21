@@ -1,0 +1,1360 @@
+[2018-10-22 01:00:01] [INFO] Running nightly build for branch master
+[2018-10-22 01:00:01] [INFO] Updating local repository
+[2018-10-22 01:00:01] [INFO] git fetch --all
+[2018-10-22 01:00:02] [INFO] Fetching origin
+[2018-10-22 01:00:10] [INFO] git checkout master
+[2018-10-22 01:00:16] [INFO] Your branch is behind 'origin/master' by 3 commits, and can be fast-forwarded.
+[2018-10-22 01:00:16] [INFO]   (use "git pull" to update your local branch)
+[2018-10-22 01:00:16] [INFO] git reset --hard origin/master
+[2018-10-22 01:00:19] [INFO] HEAD is now at fefba89f1 Repair - Make eden attributes use config values as default (#6480)
+[2018-10-22 01:00:19] [INFO] git clean -qfdx
+[2018-10-22 01:00:20] [INFO] Local repository is up-to date
+[2018-10-22 01:00:20] [INFO] Cleaning up
+[2018-10-22 01:00:20] [INFO] Deleting old p drive folders
+[2018-10-22 01:00:20] [INFO] Deleting old p drive files
+[2018-10-22 01:00:20] [INFO] Removing old release
+[2018-10-22 01:00:20] [INFO] Clean up finished
+[2018-10-22 01:00:22] [INFO] Checking if build is necessary
+[2018-10-22 01:00:22] [INFO] Current commit hash is fefba89f199190f3099f3eff04da5b5819b3a9d7
+[2018-10-22 01:00:23] [INFO] Last build was created for commit hash 6f6b0d15f86ad2435e6edae0ebc5b36739d2b03f
+[2018-10-22 01:00:23] [INFO] New commits since last build detected - proceed with build
+[2018-10-22 01:00:23] [INFO] Build started
+[2018-10-22 01:00:32] [INFO] 
+[2018-10-22 01:00:32] [INFO] make.py for Arma, modified for Advanced Combat Environment v0.9
+[2018-10-22 01:00:32] [INFO] 
+[2018-10-22 01:00:32] [INFO] Check external references is set to True
+[2018-10-22 01:00:32] [INFO] COMMIT ID set to fefba89f
+[2018-10-22 01:00:32] [INFO] ACE VERSION set to 3.12.3.36
+[2018-10-22 01:00:32] [INFO] module_root: P:\z\ace\addons
+[2018-10-22 01:00:32] [INFO] optionals_root: P:\z\ace\optionals
+[2018-10-22 01:00:32] [INFO] release_dir: P:\z\ace\release
+[2018-10-22 01:00:32] [INFO] Found pboProject.
+[2018-10-22 01:00:32] [INFO] Found rapify.
+[2018-10-22 01:00:32] [INFO] Found MakePbo.
+[2018-10-22 01:00:32] [INFO] No cache found.
+[2018-10-22 01:00:32] [INFO] Reseting Cache None to New Version 3.12.3.36
+[2018-10-22 01:00:32] [INFO] 
+[2018-10-22 01:00:32] [INFO] Checking for obsolete version numbers...
+[2018-10-22 01:00:32] [INFO] Temporarily stashing P:\z\ace\README.md => P:\z\ace\release\README.md.bak for version update
+[2018-10-22 01:00:32] [INFO] Temporarily stashing P:\z\ace\docs\README_DE.md => P:\z\ace\release\README_DE.md.bak for version update
+[2018-10-22 01:00:32] [INFO] Temporarily stashing P:\z\ace\docs\README_PL.md => P:\z\ace\release\README_PL.md.bak for version update
+[2018-10-22 01:00:32] [INFO] Temporarily stashing P:\z\ace\mod.cpp => P:\z\ace\release\mod.cpp.bak for version update
+[2018-10-22 01:00:32] [INFO] 
+[2018-10-22 01:00:32] [INFO] Checking optionals folder...
+[2018-10-22 01:00:32] [INFO] Temporarily copying P:\z\ace\optionals\compat_adr_97 => P:\z\ace\addons\compat_adr_97 for building.
+[2018-10-22 01:00:32] [INFO] Temporarily copying P:\z\ace\optionals\compat_r3f => P:\z\ace\addons\compat_r3f for building.
+[2018-10-22 01:00:32] [INFO] Temporarily copying P:\z\ace\optionals\compat_rhs_afrf3 => P:\z\ace\addons\compat_rhs_afrf3 for building.
+[2018-10-22 01:00:32] [INFO] Temporarily copying P:\z\ace\optionals\compat_rhs_gref3 => P:\z\ace\addons\compat_rhs_gref3 for building.
+[2018-10-22 01:00:32] [INFO] Temporarily copying P:\z\ace\optionals\compat_rhs_usf3 => P:\z\ace\addons\compat_rhs_usf3 for building.
+[2018-10-22 01:00:32] [INFO] Temporarily copying P:\z\ace\optionals\compat_rh_acc => P:\z\ace\addons\compat_rh_acc for building.
+[2018-10-22 01:00:32] [INFO] Temporarily copying P:\z\ace\optionals\compat_rh_de => P:\z\ace\addons\compat_rh_de for building.
+[2018-10-22 01:00:32] [INFO] Temporarily copying P:\z\ace\optionals\compat_rh_m4 => P:\z\ace\addons\compat_rh_m4 for building.
+[2018-10-22 01:00:32] [INFO] Temporarily copying P:\z\ace\optionals\compat_rh_pdw => P:\z\ace\addons\compat_rh_pdw for building.
+[2018-10-22 01:00:32] [INFO] Temporarily copying P:\z\ace\optionals\compat_rksl_pm_ii => P:\z\ace\addons\compat_rksl_pm_ii for building.
+[2018-10-22 01:00:32] [INFO] Temporarily copying P:\z\ace\optionals\compat_sma3_iansky => P:\z\ace\addons\compat_sma3_iansky for building.
+[2018-10-22 01:00:32] [INFO] Temporarily copying P:\z\ace\optionals\noactionmenu => P:\z\ace\addons\noactionmenu for building.
+[2018-10-22 01:00:32] [INFO] Temporarily copying P:\z\ace\optionals\nocrosshair => P:\z\ace\addons\nocrosshair for building.
+[2018-10-22 01:00:32] [INFO] Temporarily copying P:\z\ace\optionals\nouniformrestrictions => P:\z\ace\addons\nouniformrestrictions for building.
+[2018-10-22 01:00:32] [INFO] Temporarily copying P:\z\ace\optionals\particles => P:\z\ace\addons\particles for building.
+[2018-10-22 01:00:33] [INFO] Temporarily copying P:\z\ace\optionals\tracers => P:\z\ace\addons\tracers for building.
+[2018-10-22 01:00:33] [INFO] 
+[2018-10-22 01:00:33] [INFO] Requested key does not exist.
+[2018-10-22 01:00:33] [INFO] Created: P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey
+[2018-10-22 01:00:33] [INFO] Removing any old signature keys...
+[2018-10-22 01:00:33] [INFO] Deleting *.bisign files from directory: P:\z\ace\release\@ace\addons
+[2018-10-22 01:00:33] [INFO] Deleting *.bisign files from directory: P:\z\ace\release\@ace\optionals
+[2018-10-22 01:00:33] [INFO] Deleting *.bikey files from directory: P:\z\ace\release\@ace\keys
+[2018-10-22 01:00:33] [INFO] Copying public key to release directory.
+[2018-10-22 01:00:33] [INFO] 
+[2018-10-22 01:00:33] [INFO] Checking for obsolete files...
+[2018-10-22 01:00:33] [INFO] 
+[2018-10-22 01:00:33] [INFO] Building...
+[2018-10-22 01:00:33] [INFO] 
+[2018-10-22 01:00:33] [INFO] Making advanced_ballistics-----------------------------------------
+[2018-10-22 01:00:34] [INFO] Missing PBO file ace_advanced_ballistics.pbo. Building...
+[2018-10-22 01:00:34] [INFO] Building: P:\z\ace\addons\advanced_ballistics
+[2018-10-22 01:00:34] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:00:41] [INFO] pboProject return code == 0
+[2018-10-22 01:00:41] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:00:41] [INFO] 
+[2018-10-22 01:00:41] [INFO] Making advanced_fatigue--------------------------------------------
+[2018-10-22 01:00:41] [INFO] Missing PBO file ace_advanced_fatigue.pbo. Building...
+[2018-10-22 01:00:41] [INFO] Building: P:\z\ace\addons\advanced_fatigue
+[2018-10-22 01:00:41] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:00:42] [INFO] pboProject return code == 0
+[2018-10-22 01:00:42] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:00:42] [INFO] 
+[2018-10-22 01:00:42] [INFO] Making advanced_throwing-------------------------------------------
+[2018-10-22 01:00:43] [INFO] Missing PBO file ace_advanced_throwing.pbo. Building...
+[2018-10-22 01:00:43] [INFO] Building: P:\z\ace\addons\advanced_throwing
+[2018-10-22 01:00:43] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:00:45] [INFO] pboProject return code == 0
+[2018-10-22 01:00:45] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:00:46] [INFO] 
+[2018-10-22 01:00:46] [INFO] Making ai----------------------------------------------------------
+[2018-10-22 01:00:46] [INFO] Missing PBO file ace_ai.pbo. Building...
+[2018-10-22 01:00:46] [INFO] Building: P:\z\ace\addons\ai
+[2018-10-22 01:00:46] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:00:46] [INFO] pboProject return code == 0
+[2018-10-22 01:00:46] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:00:47] [INFO] 
+[2018-10-22 01:00:47] [INFO] Making aircraft----------------------------------------------------
+[2018-10-22 01:00:47] [INFO] Missing PBO file ace_aircraft.pbo. Building...
+[2018-10-22 01:00:47] [INFO] Building: P:\z\ace\addons\aircraft
+[2018-10-22 01:00:47] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:00:51] [INFO] pboProject return code == 0
+[2018-10-22 01:00:51] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:00:51] [INFO] 
+[2018-10-22 01:00:51] [INFO] Making apl---------------------------------------------------------
+[2018-10-22 01:00:51] [INFO] Missing PBO file ace_apl.pbo. Building...
+[2018-10-22 01:00:51] [INFO] Building: P:\z\ace\addons\apl
+[2018-10-22 01:00:51] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:01:44] [INFO] pboProject return code == 0
+[2018-10-22 01:01:44] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:01:44] [INFO] 
+[2018-10-22 01:01:44] [INFO] Making arsenal-----------------------------------------------------
+[2018-10-22 01:01:45] [INFO] Missing PBO file ace_arsenal.pbo. Building...
+[2018-10-22 01:01:45] [INFO] Building: P:\z\ace\addons\arsenal
+[2018-10-22 01:01:45] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:01:49] [INFO] pboProject return code == 0
+[2018-10-22 01:01:49] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:01:49] [INFO] 
+[2018-10-22 01:01:49] [INFO] Making atragmx-----------------------------------------------------
+[2018-10-22 01:01:50] [INFO] Missing PBO file ace_atragmx.pbo. Building...
+[2018-10-22 01:01:50] [INFO] Building: P:\z\ace\addons\atragmx
+[2018-10-22 01:01:50] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:02:51] [INFO] pboProject return code == 0
+[2018-10-22 01:02:51] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:02:51] [INFO] 
+[2018-10-22 01:02:51] [INFO] Making attach------------------------------------------------------
+[2018-10-22 01:02:52] [INFO] Missing PBO file ace_attach.pbo. Building...
+[2018-10-22 01:02:52] [INFO] Building: P:\z\ace\addons\attach
+[2018-10-22 01:02:52] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:03:20] [INFO] pboProject return code == 0
+[2018-10-22 01:03:20] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:03:21] [INFO] 
+[2018-10-22 01:03:21] [INFO] Making backpacks---------------------------------------------------
+[2018-10-22 01:03:21] [INFO] Missing PBO file ace_backpacks.pbo. Building...
+[2018-10-22 01:03:21] [INFO] Building: P:\z\ace\addons\backpacks
+[2018-10-22 01:03:21] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:03:22] [INFO] pboProject return code == 0
+[2018-10-22 01:03:22] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:03:22] [INFO] 
+[2018-10-22 01:03:22] [INFO] Making ballistics--------------------------------------------------
+[2018-10-22 01:03:22] [INFO] Missing PBO file ace_ballistics.pbo. Building...
+[2018-10-22 01:03:22] [INFO] Building: P:\z\ace\addons\ballistics
+[2018-10-22 01:03:22] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:03:25] [INFO] pboProject return code == 0
+[2018-10-22 01:03:25] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:03:26] [INFO] 
+[2018-10-22 01:03:26] [INFO] Making captives----------------------------------------------------
+[2018-10-22 01:03:26] [INFO] Missing PBO file ace_captives.pbo. Building...
+[2018-10-22 01:03:26] [INFO] Building: P:\z\ace\addons\captives
+[2018-10-22 01:03:26] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:03:58] [INFO] pboProject return code == 0
+[2018-10-22 01:03:58] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:03:59] [INFO] 
+[2018-10-22 01:03:59] [INFO] Making cargo-------------------------------------------------------
+[2018-10-22 01:03:59] [INFO] Missing PBO file ace_cargo.pbo. Building...
+[2018-10-22 01:03:59] [INFO] Building: P:\z\ace\addons\cargo
+[2018-10-22 01:03:59] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:04:01] [INFO] pboProject return code == 0
+[2018-10-22 01:04:01] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:04:01] [INFO] 
+[2018-10-22 01:04:01] [INFO] Making chemlights--------------------------------------------------
+[2018-10-22 01:04:01] [INFO] Missing PBO file ace_chemlights.pbo. Building...
+[2018-10-22 01:04:01] [INFO] Building: P:\z\ace\addons\chemlights
+[2018-10-22 01:04:01] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:04:05] [INFO] pboProject return code == 0
+[2018-10-22 01:04:05] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:04:05] [INFO] 
+[2018-10-22 01:04:05] [INFO] Making common------------------------------------------------------
+[2018-10-22 01:04:06] [INFO] Missing PBO file ace_common.pbo. Building...
+[2018-10-22 01:04:06] [INFO] Building: P:\z\ace\addons\common
+[2018-10-22 01:04:06] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:04:49] [INFO] pboProject return code == 0
+[2018-10-22 01:04:49] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:04:49] [INFO] 
+[2018-10-22 01:04:49] [INFO] Making compat_adr_97-----------------------------------------------
+[2018-10-22 01:04:49] [INFO] Missing PBO file ace_compat_adr_97.pbo. Building...
+[2018-10-22 01:04:49] [INFO] Building: P:\z\ace\addons\compat_adr_97
+[2018-10-22 01:04:49] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:04:50] [INFO] pboProject return code == 0
+[2018-10-22 01:04:50] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:04:50] [INFO] 
+[2018-10-22 01:04:50] [INFO] Making compat_r3f--------------------------------------------------
+[2018-10-22 01:04:50] [INFO] Missing PBO file ace_compat_r3f.pbo. Building...
+[2018-10-22 01:04:50] [INFO] Building: P:\z\ace\addons\compat_r3f
+[2018-10-22 01:04:50] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:04:51] [INFO] pboProject return code == 0
+[2018-10-22 01:04:51] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:04:51] [INFO] 
+[2018-10-22 01:04:51] [INFO] Making compat_rhs_afrf3--------------------------------------------
+[2018-10-22 01:04:52] [INFO] Missing PBO file ace_compat_rhs_afrf3.pbo. Building...
+[2018-10-22 01:04:52] [INFO] Building: P:\z\ace\addons\compat_rhs_afrf3
+[2018-10-22 01:04:52] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:04:53] [INFO] pboProject return code == 0
+[2018-10-22 01:04:53] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:04:53] [INFO] 
+[2018-10-22 01:04:53] [INFO] Making compat_rhs_gref3--------------------------------------------
+[2018-10-22 01:04:53] [INFO] Missing PBO file ace_compat_rhs_gref3.pbo. Building...
+[2018-10-22 01:04:53] [INFO] Building: P:\z\ace\addons\compat_rhs_gref3
+[2018-10-22 01:04:53] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:04:53] [INFO] pboProject return code == 0
+[2018-10-22 01:04:53] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:04:54] [INFO] 
+[2018-10-22 01:04:54] [INFO] Making compat_rhs_usf3---------------------------------------------
+[2018-10-22 01:04:54] [INFO] Missing PBO file ace_compat_rhs_usf3.pbo. Building...
+[2018-10-22 01:04:54] [INFO] Building: P:\z\ace\addons\compat_rhs_usf3
+[2018-10-22 01:04:54] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:04:55] [INFO] pboProject return code == 0
+[2018-10-22 01:04:55] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:04:55] [INFO] 
+[2018-10-22 01:04:55] [INFO] Making compat_rh_acc-----------------------------------------------
+[2018-10-22 01:04:55] [INFO] Missing PBO file ace_compat_rh_acc.pbo. Building...
+[2018-10-22 01:04:55] [INFO] Building: P:\z\ace\addons\compat_rh_acc
+[2018-10-22 01:04:55] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:04:56] [INFO] pboProject return code == 0
+[2018-10-22 01:04:56] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:04:56] [INFO] 
+[2018-10-22 01:04:56] [INFO] Making compat_rh_de------------------------------------------------
+[2018-10-22 01:04:56] [INFO] Missing PBO file ace_compat_rh_de.pbo. Building...
+[2018-10-22 01:04:56] [INFO] Building: P:\z\ace\addons\compat_rh_de
+[2018-10-22 01:04:56] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:04:58] [INFO] pboProject return code == 0
+[2018-10-22 01:04:58] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:04:58] [INFO] 
+[2018-10-22 01:04:58] [INFO] Making compat_rh_m4------------------------------------------------
+[2018-10-22 01:04:58] [INFO] Missing PBO file ace_compat_rh_m4.pbo. Building...
+[2018-10-22 01:04:58] [INFO] Building: P:\z\ace\addons\compat_rh_m4
+[2018-10-22 01:04:58] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:04:58] [INFO] pboProject return code == 0
+[2018-10-22 01:04:58] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:04:59] [INFO] 
+[2018-10-22 01:04:59] [INFO] Making compat_rh_pdw-----------------------------------------------
+[2018-10-22 01:04:59] [INFO] Missing PBO file ace_compat_rh_pdw.pbo. Building...
+[2018-10-22 01:04:59] [INFO] Building: P:\z\ace\addons\compat_rh_pdw
+[2018-10-22 01:04:59] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:04:59] [INFO] pboProject return code == 0
+[2018-10-22 01:04:59] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:05:00] [INFO] 
+[2018-10-22 01:05:00] [INFO] Making compat_rksl_pm_ii-------------------------------------------
+[2018-10-22 01:05:00] [INFO] Missing PBO file ace_compat_rksl_pm_ii.pbo. Building...
+[2018-10-22 01:05:00] [INFO] Building: P:\z\ace\addons\compat_rksl_pm_ii
+[2018-10-22 01:05:00] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:05:01] [INFO] pboProject return code == 0
+[2018-10-22 01:05:01] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:05:01] [INFO] 
+[2018-10-22 01:05:01] [INFO] Making compat_sma3_iansky------------------------------------------
+[2018-10-22 01:05:01] [INFO] Missing PBO file ace_compat_sma3_iansky.pbo. Building...
+[2018-10-22 01:05:01] [INFO] Building: P:\z\ace\addons\compat_sma3_iansky
+[2018-10-22 01:05:01] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:05:01] [INFO] pboProject return code == 0
+[2018-10-22 01:05:01] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:05:01] [INFO] 
+[2018-10-22 01:05:01] [INFO] Making concertina_wire---------------------------------------------
+[2018-10-22 01:05:02] [INFO] Missing PBO file ace_concertina_wire.pbo. Building...
+[2018-10-22 01:05:02] [INFO] Building: P:\z\ace\addons\concertina_wire
+[2018-10-22 01:05:02] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:05:09] [INFO] pboProject return code == 0
+[2018-10-22 01:05:09] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:05:09] [INFO] 
+[2018-10-22 01:05:09] [INFO] Making cookoff-----------------------------------------------------
+[2018-10-22 01:05:09] [INFO] Missing PBO file ace_cookoff.pbo. Building...
+[2018-10-22 01:05:09] [INFO] Building: P:\z\ace\addons\cookoff
+[2018-10-22 01:05:09] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:05:15] [INFO] pboProject return code == 0
+[2018-10-22 01:05:15] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:05:15] [INFO] 
+[2018-10-22 01:05:15] [INFO] Making dagr--------------------------------------------------------
+[2018-10-22 01:05:15] [INFO] Missing PBO file ace_dagr.pbo. Building...
+[2018-10-22 01:05:15] [INFO] Building: P:\z\ace\addons\dagr
+[2018-10-22 01:05:15] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:05:25] [INFO] pboProject return code == 0
+[2018-10-22 01:05:25] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:05:25] [INFO] 
+[2018-10-22 01:05:25] [INFO] Making disarming---------------------------------------------------
+[2018-10-22 01:05:25] [INFO] Missing PBO file ace_disarming.pbo. Building...
+[2018-10-22 01:05:25] [INFO] Building: P:\z\ace\addons\disarming
+[2018-10-22 01:05:25] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:05:26] [INFO] pboProject return code == 0
+[2018-10-22 01:05:26] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:05:26] [INFO] 
+[2018-10-22 01:05:26] [INFO] Making disposable--------------------------------------------------
+[2018-10-22 01:05:26] [INFO] Missing PBO file ace_disposable.pbo. Building...
+[2018-10-22 01:05:26] [INFO] Building: P:\z\ace\addons\disposable
+[2018-10-22 01:05:26] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:05:27] [INFO] pboProject return code == 0
+[2018-10-22 01:05:27] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:05:27] [INFO] 
+[2018-10-22 01:05:27] [INFO] Making dogtags-----------------------------------------------------
+[2018-10-22 01:05:27] [INFO] Missing PBO file ace_dogtags.pbo. Building...
+[2018-10-22 01:05:27] [INFO] Building: P:\z\ace\addons\dogtags
+[2018-10-22 01:05:27] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:05:57] [INFO] pboProject return code == 0
+[2018-10-22 01:05:57] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:05:57] [INFO] 
+[2018-10-22 01:05:57] [INFO] Making dragging----------------------------------------------------
+[2018-10-22 01:05:58] [INFO] Missing PBO file ace_dragging.pbo. Building...
+[2018-10-22 01:05:58] [INFO] Building: P:\z\ace\addons\dragging
+[2018-10-22 01:05:58] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:05:59] [INFO] pboProject return code == 0
+[2018-10-22 01:05:59] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:05:59] [INFO] 
+[2018-10-22 01:05:59] [INFO] Making explosives--------------------------------------------------
+[2018-10-22 01:05:59] [INFO] Missing PBO file ace_explosives.pbo. Building...
+[2018-10-22 01:05:59] [INFO] Building: P:\z\ace\addons\explosives
+[2018-10-22 01:05:59] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:06:19] [INFO] pboProject return code == 0
+[2018-10-22 01:06:19] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:06:19] [INFO] 
+[2018-10-22 01:06:19] [INFO] Making fastroping--------------------------------------------------
+[2018-10-22 01:06:19] [INFO] Missing PBO file ace_fastroping.pbo. Building...
+[2018-10-22 01:06:19] [INFO] Building: P:\z\ace\addons\fastroping
+[2018-10-22 01:06:19] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:06:33] [INFO] pboProject return code == 0
+[2018-10-22 01:06:33] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:06:33] [INFO] 
+[2018-10-22 01:06:33] [INFO] Making fcs---------------------------------------------------------
+[2018-10-22 01:06:33] [INFO] Missing PBO file ace_fcs.pbo. Building...
+[2018-10-22 01:06:33] [INFO] Building: P:\z\ace\addons\fcs
+[2018-10-22 01:06:33] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:06:34] [INFO] pboProject return code == 0
+[2018-10-22 01:06:34] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:06:34] [INFO] 
+[2018-10-22 01:06:34] [INFO] Making finger------------------------------------------------------
+[2018-10-22 01:06:34] [INFO] Missing PBO file ace_finger.pbo. Building...
+[2018-10-22 01:06:34] [INFO] Building: P:\z\ace\addons\finger
+[2018-10-22 01:06:34] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:06:35] [INFO] pboProject return code == 0
+[2018-10-22 01:06:35] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:06:35] [INFO] 
+[2018-10-22 01:06:35] [INFO] Making flashlights-------------------------------------------------
+[2018-10-22 01:06:36] [INFO] Missing PBO file ace_flashlights.pbo. Building...
+[2018-10-22 01:06:36] [INFO] Building: P:\z\ace\addons\flashlights
+[2018-10-22 01:06:36] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:06:44] [INFO] pboProject return code == 0
+[2018-10-22 01:06:44] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:06:44] [INFO] 
+[2018-10-22 01:06:44] [INFO] Making flashsuppressors--------------------------------------------
+[2018-10-22 01:06:44] [INFO] Missing PBO file ace_flashsuppressors.pbo. Building...
+[2018-10-22 01:06:44] [INFO] Building: P:\z\ace\addons\flashsuppressors
+[2018-10-22 01:06:44] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:06:47] [INFO] pboProject return code == 0
+[2018-10-22 01:06:47] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:06:47] [INFO] 
+[2018-10-22 01:06:47] [INFO] Making fonts-------------------------------------------------------
+[2018-10-22 01:06:47] [INFO] Missing PBO file ace_fonts.pbo. Building...
+[2018-10-22 01:06:47] [INFO] Building: P:\z\ace\addons\fonts
+[2018-10-22 01:06:47] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:06:47] [INFO] $NOBIN$ Found. Proceeding with non-binarizing!
+[2018-10-22 01:06:47] [INFO] <adding entries:...>
+[2018-10-22 01:06:47] [INFO]     $NOBIN$ :scanning
+[2018-10-22 01:06:47] [INFO]     $PBOPREFIX$ :configuring
+[2018-10-22 01:06:48] [INFO]     $PBOPREFIX$.backup :scanning
+[2018-10-22 01:06:48] [INFO]     CfgFontFamilies.hpp :scanning
+[2018-10-22 01:06:48] [INFO]     config.cpp :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold10-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold10-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold10-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold10-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold10.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold11-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold11-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold11-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold11-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold11.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold12-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold12-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold12-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold12-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold12.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold13-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold13-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold13-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold13-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold13.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold14-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold14-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold14-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold14-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold14.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold15-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold15-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold15-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold15-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold15.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold16-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold16-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold16-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold16-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold16.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold17-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold17-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold17-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold17-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold17.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold18-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold18-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold18-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold18-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold18.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold19-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold19-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold19-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold19-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold19.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold20-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold20-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold20-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold20-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold20.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold21-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold21-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold21-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold21-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold21.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold22-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold22-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold22-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold22-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold22.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold23-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold23-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold23-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold23-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold23.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold24-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold24-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold24-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold24-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold24.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold25-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold25-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold25-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold25-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold25.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold26-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold26-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold26-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold26-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold26.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold27-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold27-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold27-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold27-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold27.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold28-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold28-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold28-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold28-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold28.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold29-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold29-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold29-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold29-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold29.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold30-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold30-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold30-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold30-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold30.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold31-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold31-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold31-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold31-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold31.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold34-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold34-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold34-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold34-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold34.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold35-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold35-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold35-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold35-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold35.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold37-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold37-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold37-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold37-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold37.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold46-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold46-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold46-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold46-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold46.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold6-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold6-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold6-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold6-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold6.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold7-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold7-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold7-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold7-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold7.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold8-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold8-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold8-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold8-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold8.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold9-01.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold9-02.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold9-03.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold9-04.paa :scanning
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold9.fxy :scanning
+[2018-10-22 01:06:48] [INFO]     README.md :scanning
+[2018-10-22 01:06:48] [INFO]     script_component.hpp :scanning
+[2018-10-22 01:06:48] [INFO] </end entries>
+[2018-10-22 01:06:48] [INFO] /*Creating ArmA style pbo:*/
+[2018-10-22 01:06:48] [INFO] Prefix = z\ace\addons\fonts
+[2018-10-22 01:06:48] [INFO] <writing header entries>
+[2018-10-22 01:06:48] [INFO]     $NOBIN$
+[2018-10-22 01:06:48] [INFO]     $PBOPREFIX$.backup
+[2018-10-22 01:06:48] [INFO]     CfgFontFamilies.hpp
+[2018-10-22 01:06:48] [INFO]     config.cpp
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold10-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold10-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold10-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold10-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold10.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold11-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold11-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold11-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold11-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold11.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold12-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold12-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold12-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold12-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold12.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold13-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold13-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold13-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold13-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold13.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold14-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold14-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold14-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold14-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold14.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold15-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold15-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold15-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold15-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold15.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold16-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold16-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold16-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold16-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold16.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold17-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold17-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold17-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold17-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold17.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold18-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold18-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold18-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold18-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold18.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold19-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold19-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold19-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold19-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold19.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold20-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold20-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold20-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold20-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold20.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold21-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold21-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold21-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold21-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold21.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold22-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold22-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold22-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold22-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold22.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold23-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold23-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold23-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold23-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold23.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold24-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold24-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold24-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold24-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold24.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold25-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold25-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold25-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold25-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold25.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold26-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold26-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold26-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold26-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold26.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold27-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold27-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold27-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold27-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold27.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold28-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold28-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold28-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold28-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold28.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold29-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold29-02.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold29-03.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold29-04.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold29.fxy
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold30-01.paa
+[2018-10-22 01:06:48] [INFO]     PixelSplitterBold\PixelSplitterBold30-02.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold30-03.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold30-04.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold30.fxy
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold31-01.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold31-02.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold31-03.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold31-04.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold31.fxy
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold34-01.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold34-02.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold34-03.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold34-04.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold34.fxy
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold35-01.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold35-02.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold35-03.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold35-04.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold35.fxy
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold37-01.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold37-02.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold37-03.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold37-04.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold37.fxy
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold46-01.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold46-02.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold46-03.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold46-04.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold46.fxy
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold6-01.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold6-02.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold6-03.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold6-04.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold6.fxy
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold7-01.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold7-02.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold7-03.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold7-04.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold7.fxy
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold8-01.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold8-02.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold8-03.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold8-04.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold8.fxy
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold9-01.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold9-02.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold9-03.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold9-04.paa
+[2018-10-22 01:06:49] [INFO]     PixelSplitterBold\PixelSplitterBold9.fxy
+[2018-10-22 01:06:49] [INFO]     README.md
+[2018-10-22 01:06:49] [INFO]     script_component.hpp
+[2018-10-22 01:06:49] [INFO] </end header>
+[2018-10-22 01:06:49] [INFO] Writing data blocks...
+[2018-10-22 01:06:49] [INFO] ............................................................................................................................................................
+[2018-10-22 01:06:49] [INFO] Writing sha '98A84294DDF601E03E0EC63C7C6B4101A7D2813C'
+[2018-10-22 01:06:49] [INFO] File written to P:\z\ace\release\@ace\addons\fonts.pbo
+[2018-10-22 01:06:49] [INFO] pboProject return code == 0
+[2018-10-22 01:06:49] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:06:49] [INFO] 
+[2018-10-22 01:06:49] [INFO] Making frag--------------------------------------------------------
+[2018-10-22 01:06:49] [INFO] Missing PBO file ace_frag.pbo. Building...
+[2018-10-22 01:06:49] [INFO] Building: P:\z\ace\addons\frag
+[2018-10-22 01:06:49] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:06:55] [INFO] pboProject return code == 0
+[2018-10-22 01:06:55] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:06:55] [INFO] 
+[2018-10-22 01:06:55] [INFO] Making gestures----------------------------------------------------
+[2018-10-22 01:06:55] [INFO] Missing PBO file ace_gestures.pbo. Building...
+[2018-10-22 01:06:55] [INFO] Building: P:\z\ace\addons\gestures
+[2018-10-22 01:06:55] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:07:01] [INFO] pboProject return code == 0
+[2018-10-22 01:07:01] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:07:02] [INFO] 
+[2018-10-22 01:07:02] [INFO] Making gforces-----------------------------------------------------
+[2018-10-22 01:07:02] [INFO] Missing PBO file ace_gforces.pbo. Building...
+[2018-10-22 01:07:02] [INFO] Building: P:\z\ace\addons\gforces
+[2018-10-22 01:07:02] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:07:02] [INFO] pboProject return code == 0
+[2018-10-22 01:07:02] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:07:03] [INFO] 
+[2018-10-22 01:07:03] [INFO] Making goggles-----------------------------------------------------
+[2018-10-22 01:07:03] [INFO] Missing PBO file ace_goggles.pbo. Building...
+[2018-10-22 01:07:03] [INFO] Building: P:\z\ace\addons\goggles
+[2018-10-22 01:07:03] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:07:11] [INFO] pboProject return code == 0
+[2018-10-22 01:07:11] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:07:11] [INFO] 
+[2018-10-22 01:07:11] [INFO] Making grenades----------------------------------------------------
+[2018-10-22 01:07:12] [INFO] Missing PBO file ace_grenades.pbo. Building...
+[2018-10-22 01:07:12] [INFO] Building: P:\z\ace\addons\grenades
+[2018-10-22 01:07:12] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:07:44] [INFO] pboProject return code == 0
+[2018-10-22 01:07:44] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:07:44] [INFO] 
+[2018-10-22 01:07:44] [INFO] Making gunbag------------------------------------------------------
+[2018-10-22 01:07:44] [INFO] Missing PBO file ace_gunbag.pbo. Building...
+[2018-10-22 01:07:44] [INFO] Building: P:\z\ace\addons\gunbag
+[2018-10-22 01:07:44] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:08:33] [INFO] pboProject return code == 0
+[2018-10-22 01:08:33] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:08:33] [INFO] 
+[2018-10-22 01:08:33] [INFO] Making hearing-----------------------------------------------------
+[2018-10-22 01:08:34] [INFO] Missing PBO file ace_hearing.pbo. Building...
+[2018-10-22 01:08:34] [INFO] Building: P:\z\ace\addons\hearing
+[2018-10-22 01:08:34] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:08:44] [INFO] pboProject return code == 0
+[2018-10-22 01:08:44] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:08:44] [INFO] 
+[2018-10-22 01:08:44] [INFO] Making hellfire----------------------------------------------------
+[2018-10-22 01:08:44] [INFO] Missing PBO file ace_hellfire.pbo. Building...
+[2018-10-22 01:08:44] [INFO] Building: P:\z\ace\addons\hellfire
+[2018-10-22 01:08:44] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:08:53] [INFO] pboProject return code == 0
+[2018-10-22 01:08:53] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:08:53] [INFO] 
+[2018-10-22 01:08:53] [INFO] Making hitreactions------------------------------------------------
+[2018-10-22 01:08:53] [INFO] Missing PBO file ace_hitreactions.pbo. Building...
+[2018-10-22 01:08:53] [INFO] Building: P:\z\ace\addons\hitreactions
+[2018-10-22 01:08:53] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:08:54] [INFO] pboProject return code == 0
+[2018-10-22 01:08:54] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:08:54] [INFO] 
+[2018-10-22 01:08:54] [INFO] Making huntir------------------------------------------------------
+[2018-10-22 01:08:55] [INFO] Missing PBO file ace_huntir.pbo. Building...
+[2018-10-22 01:08:55] [INFO] Building: P:\z\ace\addons\huntir
+[2018-10-22 01:08:55] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:09:45] [INFO] pboProject return code == 0
+[2018-10-22 01:09:45] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:09:45] [INFO] 
+[2018-10-22 01:09:45] [INFO] Making interaction-------------------------------------------------
+[2018-10-22 01:09:45] [INFO] Missing PBO file ace_interaction.pbo. Building...
+[2018-10-22 01:09:45] [INFO] Building: P:\z\ace\addons\interaction
+[2018-10-22 01:09:45] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:09:47] [INFO] pboProject return code == 0
+[2018-10-22 01:09:47] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:09:48] [INFO] 
+[2018-10-22 01:09:48] [INFO] Making interact_menu-----------------------------------------------
+[2018-10-22 01:09:48] [INFO] Missing PBO file ace_interact_menu.pbo. Building...
+[2018-10-22 01:09:48] [INFO] Building: P:\z\ace\addons\interact_menu
+[2018-10-22 01:09:48] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:09:49] [INFO] pboProject return code == 0
+[2018-10-22 01:09:49] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:09:49] [INFO] 
+[2018-10-22 01:09:49] [INFO] Making inventory---------------------------------------------------
+[2018-10-22 01:09:49] [INFO] Missing PBO file ace_inventory.pbo. Building...
+[2018-10-22 01:09:49] [INFO] Building: P:\z\ace\addons\inventory
+[2018-10-22 01:09:49] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:09:51] [INFO] pboProject return code == 0
+[2018-10-22 01:09:51] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:09:51] [INFO] 
+[2018-10-22 01:09:51] [INFO] Making javelin-----------------------------------------------------
+[2018-10-22 01:09:51] [INFO] Missing PBO file ace_javelin.pbo. Building...
+[2018-10-22 01:09:51] [INFO] Building: P:\z\ace\addons\javelin
+[2018-10-22 01:09:51] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:10:18] [INFO] pboProject return code == 0
+[2018-10-22 01:10:18] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:10:18] [INFO] 
+[2018-10-22 01:10:18] [INFO] Making kestrel4500-------------------------------------------------
+[2018-10-22 01:10:18] [INFO] Missing PBO file ace_kestrel4500.pbo. Building...
+[2018-10-22 01:10:18] [INFO] Building: P:\z\ace\addons\kestrel4500
+[2018-10-22 01:10:18] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:10:30] [INFO] pboProject return code == 0
+[2018-10-22 01:10:30] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:10:30] [INFO] 
+[2018-10-22 01:10:30] [INFO] Making laser-------------------------------------------------------
+[2018-10-22 01:10:30] [INFO] Missing PBO file ace_laser.pbo. Building...
+[2018-10-22 01:10:30] [INFO] Building: P:\z\ace\addons\laser
+[2018-10-22 01:10:30] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:10:32] [INFO] pboProject return code == 0
+[2018-10-22 01:10:32] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:10:32] [INFO] 
+[2018-10-22 01:10:32] [INFO] Making laserpointer------------------------------------------------
+[2018-10-22 01:10:32] [INFO] Missing PBO file ace_laserpointer.pbo. Building...
+[2018-10-22 01:10:32] [INFO] Building: P:\z\ace\addons\laserpointer
+[2018-10-22 01:10:32] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:10:35] [INFO] pboProject return code == 0
+[2018-10-22 01:10:35] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:10:35] [INFO] 
+[2018-10-22 01:10:35] [INFO] Making logistics_uavbattery----------------------------------------
+[2018-10-22 01:10:35] [INFO] Missing PBO file ace_logistics_uavbattery.pbo. Building...
+[2018-10-22 01:10:35] [INFO] Building: P:\z\ace\addons\logistics_uavbattery
+[2018-10-22 01:10:35] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:10:42] [INFO] pboProject return code == 0
+[2018-10-22 01:10:42] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:10:42] [INFO] 
+[2018-10-22 01:10:42] [INFO] Making logistics_wirecutter----------------------------------------
+[2018-10-22 01:10:43] [INFO] Missing PBO file ace_logistics_wirecutter.pbo. Building...
+[2018-10-22 01:10:43] [INFO] Building: P:\z\ace\addons\logistics_wirecutter
+[2018-10-22 01:10:43] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:10:49] [INFO] pboProject return code == 0
+[2018-10-22 01:10:49] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:10:49] [INFO] 
+[2018-10-22 01:10:49] [INFO] Making magazinerepack----------------------------------------------
+[2018-10-22 01:10:50] [INFO] Missing PBO file ace_magazinerepack.pbo. Building...
+[2018-10-22 01:10:50] [INFO] Building: P:\z\ace\addons\magazinerepack
+[2018-10-22 01:10:50] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:10:51] [INFO] pboProject return code == 0
+[2018-10-22 01:10:51] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:10:51] [INFO] 
+[2018-10-22 01:10:51] [INFO] Making main--------------------------------------------------------
+[2018-10-22 01:10:51] [INFO] Missing PBO file ace_main.pbo. Building...
+[2018-10-22 01:10:51] [INFO] Building: P:\z\ace\addons\main
+[2018-10-22 01:10:51] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:10:52] [INFO] pboProject return code == 0
+[2018-10-22 01:10:52] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:10:52] [INFO] 
+[2018-10-22 01:10:52] [INFO] Making map---------------------------------------------------------
+[2018-10-22 01:10:52] [INFO] Missing PBO file ace_map.pbo. Building...
+[2018-10-22 01:10:52] [INFO] Building: P:\z\ace\addons\map
+[2018-10-22 01:10:52] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:11:00] [INFO] pboProject return code == 0
+[2018-10-22 01:11:00] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:11:00] [INFO] 
+[2018-10-22 01:11:00] [INFO] Making maptools----------------------------------------------------
+[2018-10-22 01:11:00] [INFO] Missing PBO file ace_maptools.pbo. Building...
+[2018-10-22 01:11:00] [INFO] Building: P:\z\ace\addons\maptools
+[2018-10-22 01:11:00] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:11:08] [INFO] pboProject return code == 0
+[2018-10-22 01:11:08] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:11:09] [INFO] 
+[2018-10-22 01:11:09] [INFO] Making map_gestures------------------------------------------------
+[2018-10-22 01:11:09] [INFO] Missing PBO file ace_map_gestures.pbo. Building...
+[2018-10-22 01:11:09] [INFO] Building: P:\z\ace\addons\map_gestures
+[2018-10-22 01:11:09] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:11:10] [INFO] pboProject return code == 0
+[2018-10-22 01:11:10] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:11:10] [INFO] 
+[2018-10-22 01:11:10] [INFO] Making markers-----------------------------------------------------
+[2018-10-22 01:11:10] [INFO] Missing PBO file ace_markers.pbo. Building...
+[2018-10-22 01:11:10] [INFO] Building: P:\z\ace\addons\markers
+[2018-10-22 01:11:10] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:11:11] [INFO] pboProject return code == 0
+[2018-10-22 01:11:11] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:11:11] [INFO] 
+[2018-10-22 01:11:11] [INFO] Making maverick----------------------------------------------------
+[2018-10-22 01:11:11] [INFO] Missing PBO file ace_maverick.pbo. Building...
+[2018-10-22 01:11:11] [INFO] Building: P:\z\ace\addons\maverick
+[2018-10-22 01:11:11] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:11:12] [INFO] pboProject return code == 0
+[2018-10-22 01:11:12] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:11:12] [INFO] 
+[2018-10-22 01:11:12] [INFO] Making medical-----------------------------------------------------
+[2018-10-22 01:11:13] [INFO] Missing PBO file ace_medical.pbo. Building...
+[2018-10-22 01:11:13] [INFO] Building: P:\z\ace\addons\medical
+[2018-10-22 01:11:13] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:12:40] [INFO] pboProject return code == 0
+[2018-10-22 01:12:40] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:12:41] [INFO] 
+[2018-10-22 01:12:41] [INFO] Making medical_ai--------------------------------------------------
+[2018-10-22 01:12:41] [INFO] Missing PBO file ace_medical_ai.pbo. Building...
+[2018-10-22 01:12:41] [INFO] Building: P:\z\ace\addons\medical_ai
+[2018-10-22 01:12:41] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:12:42] [INFO] pboProject return code == 0
+[2018-10-22 01:12:42] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:12:42] [INFO] 
+[2018-10-22 01:12:42] [INFO] Making medical_blood-----------------------------------------------
+[2018-10-22 01:12:43] [INFO] Missing PBO file ace_medical_blood.pbo. Building...
+[2018-10-22 01:12:43] [INFO] Building: P:\z\ace\addons\medical_blood
+[2018-10-22 01:12:43] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:12:49] [INFO] pboProject return code == 0
+[2018-10-22 01:12:49] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:12:49] [INFO] 
+[2018-10-22 01:12:49] [INFO] Making medical_menu------------------------------------------------
+[2018-10-22 01:12:50] [INFO] Missing PBO file ace_medical_menu.pbo. Building...
+[2018-10-22 01:12:50] [INFO] Building: P:\z\ace\addons\medical_menu
+[2018-10-22 01:12:50] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:12:52] [INFO] pboProject return code == 0
+[2018-10-22 01:12:52] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:12:52] [INFO] 
+[2018-10-22 01:12:52] [INFO] Making microdagr---------------------------------------------------
+[2018-10-22 01:12:52] [INFO] Missing PBO file ace_microdagr.pbo. Building...
+[2018-10-22 01:12:52] [INFO] Building: P:\z\ace\addons\microdagr
+[2018-10-22 01:12:52] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:13:07] [INFO] pboProject return code == 0
+[2018-10-22 01:13:07] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:13:07] [INFO] 
+[2018-10-22 01:13:07] [INFO] Making minedetector------------------------------------------------
+[2018-10-22 01:13:07] [INFO] Missing PBO file ace_minedetector.pbo. Building...
+[2018-10-22 01:13:07] [INFO] Building: P:\z\ace\addons\minedetector
+[2018-10-22 01:13:07] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:13:21] [INFO] pboProject return code == 0
+[2018-10-22 01:13:21] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:13:21] [INFO] 
+[2018-10-22 01:13:21] [INFO] Making missileguidance---------------------------------------------
+[2018-10-22 01:13:21] [INFO] Missing PBO file ace_missileguidance.pbo. Building...
+[2018-10-22 01:13:21] [INFO] Building: P:\z\ace\addons\missileguidance
+[2018-10-22 01:13:21] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:13:22] [INFO] pboProject return code == 0
+[2018-10-22 01:13:22] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:13:22] [INFO] 
+[2018-10-22 01:13:22] [INFO] Making missionmodules----------------------------------------------
+[2018-10-22 01:13:22] [INFO] Missing PBO file ace_missionmodules.pbo. Building...
+[2018-10-22 01:13:22] [INFO] Building: P:\z\ace\addons\missionmodules
+[2018-10-22 01:13:22] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:13:23] [INFO] pboProject return code == 0
+[2018-10-22 01:13:23] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:13:24] [INFO] 
+[2018-10-22 01:13:24] [INFO] Making mk6mortar---------------------------------------------------
+[2018-10-22 01:13:24] [INFO] Missing PBO file ace_mk6mortar.pbo. Building...
+[2018-10-22 01:13:24] [INFO] Building: P:\z\ace\addons\mk6mortar
+[2018-10-22 01:13:24] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:13:34] [INFO] pboProject return code == 0
+[2018-10-22 01:13:34] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:13:34] [INFO] 
+[2018-10-22 01:13:34] [INFO] Making modules-----------------------------------------------------
+[2018-10-22 01:13:34] [INFO] Missing PBO file ace_modules.pbo. Building...
+[2018-10-22 01:13:34] [INFO] Building: P:\z\ace\addons\modules
+[2018-10-22 01:13:34] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:13:35] [INFO] pboProject return code == 0
+[2018-10-22 01:13:35] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:13:35] [INFO] 
+[2018-10-22 01:13:35] [INFO] Making movement----------------------------------------------------
+[2018-10-22 01:13:35] [INFO] Missing PBO file ace_movement.pbo. Building...
+[2018-10-22 01:13:35] [INFO] Building: P:\z\ace\addons\movement
+[2018-10-22 01:13:35] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:13:36] [INFO] pboProject return code == 0
+[2018-10-22 01:13:36] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:13:36] [INFO] 
+[2018-10-22 01:13:36] [INFO] Making mx2a--------------------------------------------------------
+[2018-10-22 01:13:36] [INFO] Missing PBO file ace_mx2a.pbo. Building...
+[2018-10-22 01:13:36] [INFO] Building: P:\z\ace\addons\mx2a
+[2018-10-22 01:13:36] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:13:45] [INFO] pboProject return code == 0
+[2018-10-22 01:13:45] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:13:45] [INFO] 
+[2018-10-22 01:13:45] [INFO] Making nametags----------------------------------------------------
+[2018-10-22 01:13:45] [INFO] Missing PBO file ace_nametags.pbo. Building...
+[2018-10-22 01:13:45] [INFO] Building: P:\z\ace\addons\nametags
+[2018-10-22 01:13:45] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:13:46] [INFO] pboProject return code == 0
+[2018-10-22 01:13:46] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:13:46] [INFO] 
+[2018-10-22 01:13:46] [INFO] Making nightvision-------------------------------------------------
+[2018-10-22 01:13:46] [INFO] Missing PBO file ace_nightvision.pbo. Building...
+[2018-10-22 01:13:46] [INFO] Building: P:\z\ace\addons\nightvision
+[2018-10-22 01:13:46] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:16] [INFO] pboProject return code == 0
+[2018-10-22 01:14:16] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:16] [INFO] 
+[2018-10-22 01:14:16] [INFO] Making nlaw--------------------------------------------------------
+[2018-10-22 01:14:16] [INFO] Missing PBO file ace_nlaw.pbo. Building...
+[2018-10-22 01:14:16] [INFO] Building: P:\z\ace\addons\nlaw
+[2018-10-22 01:14:16] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:19] [INFO] pboProject return code == 0
+[2018-10-22 01:14:19] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:19] [INFO] 
+[2018-10-22 01:14:19] [INFO] Making noactionmenu------------------------------------------------
+[2018-10-22 01:14:19] [INFO] Missing PBO file ace_noactionmenu.pbo. Building...
+[2018-10-22 01:14:19] [INFO] Building: P:\z\ace\addons\noactionmenu
+[2018-10-22 01:14:19] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:19] [INFO] pboProject return code == 0
+[2018-10-22 01:14:19] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:20] [INFO] 
+[2018-10-22 01:14:20] [INFO] Making nocrosshair-------------------------------------------------
+[2018-10-22 01:14:20] [INFO] Missing PBO file ace_nocrosshair.pbo. Building...
+[2018-10-22 01:14:20] [INFO] Building: P:\z\ace\addons\nocrosshair
+[2018-10-22 01:14:20] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:20] [INFO] pboProject return code == 0
+[2018-10-22 01:14:20] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:20] [INFO] 
+[2018-10-22 01:14:20] [INFO] Making noidle------------------------------------------------------
+[2018-10-22 01:14:20] [INFO] Missing PBO file ace_noidle.pbo. Building...
+[2018-10-22 01:14:20] [INFO] Building: P:\z\ace\addons\noidle
+[2018-10-22 01:14:20] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:21] [INFO] pboProject return code == 0
+[2018-10-22 01:14:21] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:21] [INFO] 
+[2018-10-22 01:14:21] [INFO] Making noradio-----------------------------------------------------
+[2018-10-22 01:14:21] [INFO] Missing PBO file ace_noradio.pbo. Building...
+[2018-10-22 01:14:21] [INFO] Building: P:\z\ace\addons\noradio
+[2018-10-22 01:14:21] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:22] [INFO] pboProject return code == 0
+[2018-10-22 01:14:22] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:22] [INFO] 
+[2018-10-22 01:14:22] [INFO] Making norearm-----------------------------------------------------
+[2018-10-22 01:14:22] [INFO] Missing PBO file ace_norearm.pbo. Building...
+[2018-10-22 01:14:22] [INFO] Building: P:\z\ace\addons\norearm
+[2018-10-22 01:14:22] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:23] [INFO] pboProject return code == 0
+[2018-10-22 01:14:23] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:23] [INFO] 
+[2018-10-22 01:14:23] [INFO] Making nouniformrestrictions---------------------------------------
+[2018-10-22 01:14:23] [INFO] Missing PBO file ace_nouniformrestrictions.pbo. Building...
+[2018-10-22 01:14:23] [INFO] Building: P:\z\ace\addons\nouniformrestrictions
+[2018-10-22 01:14:23] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:24] [INFO] pboProject return code == 0
+[2018-10-22 01:14:24] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:24] [INFO] 
+[2018-10-22 01:14:24] [INFO] Making optics------------------------------------------------------
+[2018-10-22 01:14:24] [INFO] Missing PBO file ace_optics.pbo. Building...
+[2018-10-22 01:14:24] [INFO] Building: P:\z\ace\addons\optics
+[2018-10-22 01:14:24] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:36] [INFO] pboProject return code == 0
+[2018-10-22 01:14:36] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:36] [INFO] 
+[2018-10-22 01:14:36] [INFO] Making optionsmenu-------------------------------------------------
+[2018-10-22 01:14:36] [INFO] Missing PBO file ace_optionsmenu.pbo. Building...
+[2018-10-22 01:14:36] [INFO] Building: P:\z\ace\addons\optionsmenu
+[2018-10-22 01:14:36] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:38] [INFO] pboProject return code == 0
+[2018-10-22 01:14:38] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:38] [INFO] 
+[2018-10-22 01:14:38] [INFO] Making overheating-------------------------------------------------
+[2018-10-22 01:14:38] [INFO] Missing PBO file ace_overheating.pbo. Building...
+[2018-10-22 01:14:38] [INFO] Building: P:\z\ace\addons\overheating
+[2018-10-22 01:14:38] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:39] [INFO] pboProject return code == 0
+[2018-10-22 01:14:39] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:40] [INFO] 
+[2018-10-22 01:14:40] [INFO] Making overpressure------------------------------------------------
+[2018-10-22 01:14:40] [INFO] Missing PBO file ace_overpressure.pbo. Building...
+[2018-10-22 01:14:40] [INFO] Building: P:\z\ace\addons\overpressure
+[2018-10-22 01:14:40] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:40] [INFO] pboProject return code == 0
+[2018-10-22 01:14:40] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:40] [INFO] 
+[2018-10-22 01:14:40] [INFO] Making parachute---------------------------------------------------
+[2018-10-22 01:14:41] [INFO] Missing PBO file ace_parachute.pbo. Building...
+[2018-10-22 01:14:41] [INFO] Building: P:\z\ace\addons\parachute
+[2018-10-22 01:14:41] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:42] [INFO] pboProject return code == 0
+[2018-10-22 01:14:42] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:42] [INFO] 
+[2018-10-22 01:14:42] [INFO] Making particles---------------------------------------------------
+[2018-10-22 01:14:42] [INFO] Missing PBO file ace_particles.pbo. Building...
+[2018-10-22 01:14:42] [INFO] Building: P:\z\ace\addons\particles
+[2018-10-22 01:14:42] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:46] [INFO] pboProject return code == 0
+[2018-10-22 01:14:46] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:46] [INFO] 
+[2018-10-22 01:14:46] [INFO] Making pylons------------------------------------------------------
+[2018-10-22 01:14:46] [INFO] Missing PBO file ace_pylons.pbo. Building...
+[2018-10-22 01:14:46] [INFO] Building: P:\z\ace\addons\pylons
+[2018-10-22 01:14:46] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:48] [INFO] pboProject return code == 0
+[2018-10-22 01:14:48] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:48] [INFO] 
+[2018-10-22 01:14:48] [INFO] Making quickmount--------------------------------------------------
+[2018-10-22 01:14:48] [INFO] Missing PBO file ace_quickmount.pbo. Building...
+[2018-10-22 01:14:48] [INFO] Building: P:\z\ace\addons\quickmount
+[2018-10-22 01:14:48] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:49] [INFO] pboProject return code == 0
+[2018-10-22 01:14:49] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:49] [INFO] 
+[2018-10-22 01:14:49] [INFO] Making rangecard---------------------------------------------------
+[2018-10-22 01:14:49] [INFO] Missing PBO file ace_rangecard.pbo. Building...
+[2018-10-22 01:14:49] [INFO] Building: P:\z\ace\addons\rangecard
+[2018-10-22 01:14:49] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:50] [INFO] pboProject return code == 0
+[2018-10-22 01:14:50] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:51] [INFO] 
+[2018-10-22 01:14:51] [INFO] Making realisticnames----------------------------------------------
+[2018-10-22 01:14:51] [INFO] Missing PBO file ace_realisticnames.pbo. Building...
+[2018-10-22 01:14:51] [INFO] Building: P:\z\ace\addons\realisticnames
+[2018-10-22 01:14:51] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:51] [INFO] pboProject return code == 0
+[2018-10-22 01:14:51] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:51] [INFO] 
+[2018-10-22 01:14:51] [INFO] Making realisticweights--------------------------------------------
+[2018-10-22 01:14:52] [INFO] Missing PBO file ace_realisticweights.pbo. Building...
+[2018-10-22 01:14:52] [INFO] Building: P:\z\ace\addons\realisticweights
+[2018-10-22 01:14:52] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:52] [INFO] pboProject return code == 0
+[2018-10-22 01:14:52] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:52] [INFO] 
+[2018-10-22 01:14:52] [INFO] Making rearm-------------------------------------------------------
+[2018-10-22 01:14:53] [INFO] Missing PBO file ace_rearm.pbo. Building...
+[2018-10-22 01:14:53] [INFO] Building: P:\z\ace\addons\rearm
+[2018-10-22 01:14:53] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:56] [INFO] pboProject return code == 0
+[2018-10-22 01:14:56] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:56] [INFO] 
+[2018-10-22 01:14:56] [INFO] Making recoil------------------------------------------------------
+[2018-10-22 01:14:56] [INFO] Missing PBO file ace_recoil.pbo. Building...
+[2018-10-22 01:14:56] [INFO] Building: P:\z\ace\addons\recoil
+[2018-10-22 01:14:56] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:14:57] [INFO] pboProject return code == 0
+[2018-10-22 01:14:57] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:14:57] [INFO] 
+[2018-10-22 01:14:57] [INFO] Making refuel------------------------------------------------------
+[2018-10-22 01:14:58] [INFO] Missing PBO file ace_refuel.pbo. Building...
+[2018-10-22 01:14:58] [INFO] Building: P:\z\ace\addons\refuel
+[2018-10-22 01:14:58] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:15:09] [INFO] pboProject return code == 0
+[2018-10-22 01:15:09] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:15:09] [INFO] 
+[2018-10-22 01:15:09] [INFO] Making reload------------------------------------------------------
+[2018-10-22 01:15:09] [INFO] Missing PBO file ace_reload.pbo. Building...
+[2018-10-22 01:15:09] [INFO] Building: P:\z\ace\addons\reload
+[2018-10-22 01:15:09] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:15:10] [INFO] pboProject return code == 0
+[2018-10-22 01:15:10] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:15:10] [INFO] 
+[2018-10-22 01:15:10] [INFO] Making reloadlaunchers---------------------------------------------
+[2018-10-22 01:15:10] [INFO] Missing PBO file ace_reloadlaunchers.pbo. Building...
+[2018-10-22 01:15:10] [INFO] Building: P:\z\ace\addons\reloadlaunchers
+[2018-10-22 01:15:10] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:15:11] [INFO] pboProject return code == 0
+[2018-10-22 01:15:11] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:15:11] [INFO] 
+[2018-10-22 01:15:11] [INFO] Making repair------------------------------------------------------
+[2018-10-22 01:15:11] [INFO] Missing PBO file ace_repair.pbo. Building...
+[2018-10-22 01:15:11] [INFO] Building: P:\z\ace\addons\repair
+[2018-10-22 01:15:11] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:16:07] [INFO] pboProject return code == 0
+[2018-10-22 01:16:07] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:16:07] [INFO] 
+[2018-10-22 01:16:07] [INFO] Making respawn-----------------------------------------------------
+[2018-10-22 01:16:07] [INFO] Missing PBO file ace_respawn.pbo. Building...
+[2018-10-22 01:16:07] [INFO] Building: P:\z\ace\addons\respawn
+[2018-10-22 01:16:07] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:16:09] [INFO] pboProject return code == 0
+[2018-10-22 01:16:09] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:16:09] [INFO] 
+[2018-10-22 01:16:09] [INFO] Making safemode----------------------------------------------------
+[2018-10-22 01:16:09] [INFO] Missing PBO file ace_safemode.pbo. Building...
+[2018-10-22 01:16:09] [INFO] Building: P:\z\ace\addons\safemode
+[2018-10-22 01:16:09] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:16:10] [INFO] pboProject return code == 0
+[2018-10-22 01:16:10] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:16:10] [INFO] 
+[2018-10-22 01:16:10] [INFO] Making sandbag-----------------------------------------------------
+[2018-10-22 01:16:10] [INFO] Missing PBO file ace_sandbag.pbo. Building...
+[2018-10-22 01:16:10] [INFO] Building: P:\z\ace\addons\sandbag
+[2018-10-22 01:16:10] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:16:18] [INFO] pboProject return code == 0
+[2018-10-22 01:16:18] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:16:18] [INFO] 
+[2018-10-22 01:16:18] [INFO] Making scopes------------------------------------------------------
+[2018-10-22 01:16:18] [INFO] Missing PBO file ace_scopes.pbo. Building...
+[2018-10-22 01:16:18] [INFO] Building: P:\z\ace\addons\scopes
+[2018-10-22 01:16:18] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:16:19] [INFO] pboProject return code == 0
+[2018-10-22 01:16:19] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:16:19] [INFO] 
+[2018-10-22 01:16:19] [INFO] Making slideshow---------------------------------------------------
+[2018-10-22 01:16:19] [INFO] Missing PBO file ace_slideshow.pbo. Building...
+[2018-10-22 01:16:19] [INFO] Building: P:\z\ace\addons\slideshow
+[2018-10-22 01:16:19] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:16:21] [INFO] pboProject return code == 0
+[2018-10-22 01:16:21] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:16:21] [INFO] 
+[2018-10-22 01:16:21] [INFO] Making smallarms---------------------------------------------------
+[2018-10-22 01:16:21] [INFO] Missing PBO file ace_smallarms.pbo. Building...
+[2018-10-22 01:16:21] [INFO] Building: P:\z\ace\addons\smallarms
+[2018-10-22 01:16:21] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:16:24] [INFO] pboProject return code == 0
+[2018-10-22 01:16:24] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:16:25] [INFO] 
+[2018-10-22 01:16:25] [INFO] Making spectator---------------------------------------------------
+[2018-10-22 01:16:25] [INFO] Missing PBO file ace_spectator.pbo. Building...
+[2018-10-22 01:16:25] [INFO] Building: P:\z\ace\addons\spectator
+[2018-10-22 01:16:25] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:16:26] [INFO] pboProject return code == 0
+[2018-10-22 01:16:26] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:16:26] [INFO] 
+[2018-10-22 01:16:26] [INFO] Making spottingscope-----------------------------------------------
+[2018-10-22 01:16:27] [INFO] Missing PBO file ace_spottingscope.pbo. Building...
+[2018-10-22 01:16:27] [INFO] Building: P:\z\ace\addons\spottingscope
+[2018-10-22 01:16:27] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:17:20] [INFO] pboProject return code == 0
+[2018-10-22 01:17:20] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:17:20] [INFO] 
+[2018-10-22 01:17:21] [INFO] Making switchunits-------------------------------------------------
+[2018-10-22 01:17:21] [INFO] Missing PBO file ace_switchunits.pbo. Building...
+[2018-10-22 01:17:21] [INFO] Building: P:\z\ace\addons\switchunits
+[2018-10-22 01:17:21] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:17:22] [INFO] pboProject return code == 0
+[2018-10-22 01:17:22] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:17:22] [INFO] 
+[2018-10-22 01:17:22] [INFO] Making tacticalladder----------------------------------------------
+[2018-10-22 01:17:22] [INFO] Missing PBO file ace_tacticalladder.pbo. Building...
+[2018-10-22 01:17:22] [INFO] Building: P:\z\ace\addons\tacticalladder
+[2018-10-22 01:17:22] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:17:30] [INFO] pboProject return code == 0
+[2018-10-22 01:17:30] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:17:30] [INFO] 
+[2018-10-22 01:17:30] [INFO] Making tagging-----------------------------------------------------
+[2018-10-22 01:17:30] [INFO] Missing PBO file ace_tagging.pbo. Building...
+[2018-10-22 01:17:30] [INFO] Building: P:\z\ace\addons\tagging
+[2018-10-22 01:17:30] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:17:43] [INFO] pboProject return code == 0
+[2018-10-22 01:17:43] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:17:43] [INFO] 
+[2018-10-22 01:17:43] [INFO] Making thermals----------------------------------------------------
+[2018-10-22 01:17:43] [INFO] Missing PBO file ace_thermals.pbo. Building...
+[2018-10-22 01:17:43] [INFO] Building: P:\z\ace\addons\thermals
+[2018-10-22 01:17:43] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:17:44] [INFO] pboProject return code == 0
+[2018-10-22 01:17:44] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:17:44] [INFO] 
+[2018-10-22 01:17:44] [INFO] Making tracers-----------------------------------------------------
+[2018-10-22 01:17:44] [INFO] Missing PBO file ace_tracers.pbo. Building...
+[2018-10-22 01:17:44] [INFO] Building: P:\z\ace\addons\tracers
+[2018-10-22 01:17:44] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:17:51] [INFO] pboProject return code == 0
+[2018-10-22 01:17:51] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:17:51] [INFO] 
+[2018-10-22 01:17:51] [INFO] Making trenches----------------------------------------------------
+[2018-10-22 01:17:51] [INFO] Missing PBO file ace_trenches.pbo. Building...
+[2018-10-22 01:17:51] [INFO] Building: P:\z\ace\addons\trenches
+[2018-10-22 01:17:51] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:17:52] [INFO] pboProject return code == 0
+[2018-10-22 01:17:52] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:17:52] [INFO] 
+[2018-10-22 01:17:52] [INFO] Making tripod------------------------------------------------------
+[2018-10-22 01:17:52] [INFO] Missing PBO file ace_tripod.pbo. Building...
+[2018-10-22 01:17:52] [INFO] Building: P:\z\ace\addons\tripod
+[2018-10-22 01:17:52] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:18:41] [INFO] pboProject return code == 0
+[2018-10-22 01:18:41] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:18:41] [INFO] 
+[2018-10-22 01:18:41] [INFO] Making ui----------------------------------------------------------
+[2018-10-22 01:18:41] [INFO] Missing PBO file ace_ui.pbo. Building...
+[2018-10-22 01:18:41] [INFO] Building: P:\z\ace\addons\ui
+[2018-10-22 01:18:41] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:18:43] [INFO] pboProject return code == 0
+[2018-10-22 01:18:43] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:18:43] [INFO] 
+[2018-10-22 01:18:43] [INFO] Making vector------------------------------------------------------
+[2018-10-22 01:18:43] [INFO] Missing PBO file ace_vector.pbo. Building...
+[2018-10-22 01:18:43] [INFO] Building: P:\z\ace\addons\vector
+[2018-10-22 01:18:43] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:19:05] [INFO] pboProject return code == 0
+[2018-10-22 01:19:05] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:19:06] [INFO] 
+[2018-10-22 01:19:06] [INFO] Making vehiclelock-------------------------------------------------
+[2018-10-22 01:19:06] [INFO] Missing PBO file ace_vehiclelock.pbo. Building...
+[2018-10-22 01:19:06] [INFO] Building: P:\z\ace\addons\vehiclelock
+[2018-10-22 01:19:06] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:19:09] [INFO] pboProject return code == 0
+[2018-10-22 01:19:09] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:19:09] [INFO] 
+[2018-10-22 01:19:09] [INFO] Making vehicles----------------------------------------------------
+[2018-10-22 01:19:09] [INFO] Missing PBO file ace_vehicles.pbo. Building...
+[2018-10-22 01:19:09] [INFO] Building: P:\z\ace\addons\vehicles
+[2018-10-22 01:19:09] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:19:10] [INFO] pboProject return code == 0
+[2018-10-22 01:19:10] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:19:10] [INFO] 
+[2018-10-22 01:19:10] [INFO] Making viewdistance------------------------------------------------
+[2018-10-22 01:19:10] [INFO] Missing PBO file ace_viewdistance.pbo. Building...
+[2018-10-22 01:19:10] [INFO] Building: P:\z\ace\addons\viewdistance
+[2018-10-22 01:19:10] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:19:11] [INFO] pboProject return code == 0
+[2018-10-22 01:19:11] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:19:11] [INFO] 
+[2018-10-22 01:19:11] [INFO] Making weaponselect------------------------------------------------
+[2018-10-22 01:19:11] [INFO] Missing PBO file ace_weaponselect.pbo. Building...
+[2018-10-22 01:19:11] [INFO] Building: P:\z\ace\addons\weaponselect
+[2018-10-22 01:19:11] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:19:12] [INFO] pboProject return code == 0
+[2018-10-22 01:19:12] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:19:12] [INFO] 
+[2018-10-22 01:19:12] [INFO] Making weather-----------------------------------------------------
+[2018-10-22 01:19:12] [INFO] Missing PBO file ace_weather.pbo. Building...
+[2018-10-22 01:19:12] [INFO] Building: P:\z\ace\addons\weather
+[2018-10-22 01:19:12] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:19:13] [INFO] pboProject return code == 0
+[2018-10-22 01:19:13] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:19:13] [INFO] 
+[2018-10-22 01:19:13] [INFO] Making winddeflection----------------------------------------------
+[2018-10-22 01:19:13] [INFO] Missing PBO file ace_winddeflection.pbo. Building...
+[2018-10-22 01:19:13] [INFO] Building: P:\z\ace\addons\winddeflection
+[2018-10-22 01:19:13] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:19:14] [INFO] pboProject return code == 0
+[2018-10-22 01:19:14] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:19:14] [INFO] 
+[2018-10-22 01:19:14] [INFO] Making yardage450--------------------------------------------------
+[2018-10-22 01:19:15] [INFO] Missing PBO file ace_yardage450.pbo. Building...
+[2018-10-22 01:19:15] [INFO] Building: P:\z\ace\addons\yardage450
+[2018-10-22 01:19:15] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:19:44] [INFO] pboProject return code == 0
+[2018-10-22 01:19:44] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:19:45] [INFO] 
+[2018-10-22 01:19:45] [INFO] Making zeus--------------------------------------------------------
+[2018-10-22 01:19:45] [INFO] Missing PBO file ace_zeus.pbo. Building...
+[2018-10-22 01:19:45] [INFO] Building: P:\z\ace\addons\zeus
+[2018-10-22 01:19:45] [INFO] Destination: P:\z\ace\release\@ace\addons
+[2018-10-22 01:19:47] [INFO] pboProject return code == 0
+[2018-10-22 01:19:47] [INFO] Signing with P:\private_keys\ace_3.12.3.36-fefba89f.biprivatekey.
+[2018-10-22 01:19:48] [INFO] 
+[2018-10-22 01:19:48] [INFO] Searching for important files in P:\z\ace
+[2018-10-22 01:19:48] [INFO] Source_dir: P:\z\ace
+[2018-10-22 01:19:48] [INFO] Destination_dir: P:\z\ace\release\@ace
+[2018-10-22 01:19:48] [INFO] Copying file => P:\z\ace\mod.cpp
+[2018-10-22 01:19:48] [INFO] Copying file => P:\z\ace\README.md
+[2018-10-22 01:19:48] [INFO] Copying file => P:\z\ace\docs\README_DE.md
+[2018-10-22 01:19:48] [INFO] Copying file => P:\z\ace\docs\README_PL.md
+[2018-10-22 01:19:48] [INFO] Copying file => P:\z\ace\AUTHORS.txt
+[2018-10-22 01:19:48] [INFO] Copying file => P:\z\ace\LICENSE
+[2018-10-22 01:19:48] [INFO] Copying file => P:\z\ace\logo_ace3_ca.paa
+[2018-10-22 01:19:48] [INFO] Copying file => P:\z\ace\meta.cpp
+[2018-10-22 01:19:48] [INFO] 
+[2018-10-22 01:19:48] [INFO] Searching for DLLs in P:\z\ace
+[2018-10-22 01:19:48] [INFO] Copying dll => P:\z\ace\ace_advanced_ballistics.dll
+[2018-10-22 01:19:48] [INFO] Copying dll => P:\z\ace\ace_advanced_ballistics_x64.dll
+[2018-10-22 01:19:48] [INFO] Copying dll => P:\z\ace\ace_break_line.dll
+[2018-10-22 01:19:48] [INFO] Copying dll => P:\z\ace\ace_break_line_x64.dll
+[2018-10-22 01:19:48] [INFO] Copying dll => P:\z\ace\ace_clipboard.dll
+[2018-10-22 01:19:48] [INFO] Copying dll => P:\z\ace\ace_clipboard_x64.dll
+[2018-10-22 01:19:48] [INFO] Copying dll => P:\z\ace\ace_fcs.dll
+[2018-10-22 01:19:48] [INFO] Copying dll => P:\z\ace\ace_fcs_x64.dll
+[2018-10-22 01:19:48] [INFO] Copying dll => P:\z\ace\ace_medical.dll
+[2018-10-22 01:19:48] [INFO] Copying dll => P:\z\ace\ace_medical_x64.dll
+[2018-10-22 01:19:48] [INFO] Copying dll => P:\z\ace\ace_parse_imagepath.dll
+[2018-10-22 01:19:48] [INFO] Copying dll => P:\z\ace\ace_parse_imagepath_x64.dll
+[2018-10-22 01:19:48] [INFO] 
+[2018-10-22 01:19:48] [INFO] Cleaning P:\z\ace\addons\compat_adr_97
+[2018-10-22 01:19:48] [INFO] Cleaning P:\z\ace\addons\compat_r3f
+[2018-10-22 01:19:48] [INFO] Cleaning P:\z\ace\addons\compat_rhs_afrf3
+[2018-10-22 01:19:48] [INFO] Cleaning P:\z\ace\addons\compat_rhs_gref3
+[2018-10-22 01:19:48] [INFO] Cleaning P:\z\ace\addons\compat_rhs_usf3
+[2018-10-22 01:19:48] [INFO] Cleaning P:\z\ace\addons\compat_rh_acc
+[2018-10-22 01:19:48] [INFO] Cleaning P:\z\ace\addons\compat_rh_de
+[2018-10-22 01:19:48] [INFO] Cleaning P:\z\ace\addons\compat_rh_m4
+[2018-10-22 01:19:48] [INFO] Cleaning P:\z\ace\addons\compat_rh_pdw
+[2018-10-22 01:19:48] [INFO] Cleaning P:\z\ace\addons\compat_rksl_pm_ii
+[2018-10-22 01:19:48] [INFO] Cleaning P:\z\ace\addons\compat_sma3_iansky
+[2018-10-22 01:19:48] [INFO] Cleaning P:\z\ace\addons\noactionmenu
+[2018-10-22 01:19:48] [INFO] Cleaning P:\z\ace\addons\nocrosshair
+[2018-10-22 01:19:48] [INFO] Cleaning P:\z\ace\addons\nouniformrestrictions
+[2018-10-22 01:19:48] [INFO] Cleaning P:\z\ace\addons\particles
+[2018-10-22 01:19:48] [INFO] Cleaning P:\z\ace\addons\tracers
+[2018-10-22 01:19:48] [INFO] 
+[2018-10-22 01:19:48] [INFO] Restoring version files...
+[2018-10-22 01:19:48] [INFO] Restoring P:\z\ace\README.md
+[2018-10-22 01:19:48] [INFO] Restoring P:\z\ace\docs\README_DE.md
+[2018-10-22 01:19:48] [INFO] Restoring P:\z\ace\docs\README_PL.md
+[2018-10-22 01:19:48] [INFO] Restoring P:\z\ace\mod.cpp
+[2018-10-22 01:19:48] [INFO] 
+[2018-10-22 01:19:48] [INFO] Making release: ace3_3.12.3.zip ...
+[2018-10-22 01:19:48] [INFO] Packing...
+[2018-10-22 01:19:58] [INFO] 
+[2018-10-22 01:19:58] [INFO] Completed with 0 errors.
+[2018-10-22 01:19:58] [INFO] 
+[2018-10-22 01:19:58] [INFO] Total Program time elapsed:  0h 19m 26.35772s
+[2018-10-22 01:19:58] [INFO] Build successful
+[2018-10-22 01:19:58] [INFO] Updating build db with latest commit hash
+[2018-10-22 01:19:58] [INFO] Build db successfully updated
+[2018-10-22 01:19:58] [INFO] Build finished
+[2018-10-22 01:19:58] [INFO] Preparing log files for upload
+[2018-10-22 01:19:58] [INFO] Closing log
