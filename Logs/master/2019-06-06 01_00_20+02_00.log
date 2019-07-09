@@ -1,0 +1,29 @@
+[2019-06-06 01:00:00] [INFO] Running nightly build for branch master
+[2019-06-06 01:00:00] [INFO] Updating local repository
+[2019-06-06 01:00:00] [INFO] git fetch --all
+[2019-06-06 01:00:01] [INFO] Fetching origin
+[2019-06-06 01:00:09] [INFO] git checkout master
+[2019-06-06 01:00:10] [INFO] Your branch is behind 'origin/master' by 3 commits, and can be fast-forwarded.
+[2019-06-06 01:00:10] [INFO]   (use "git pull" to update your local branch)
+[2019-06-06 01:00:10] [INFO] git reset --hard origin/master
+[2019-06-06 01:00:18] [INFO] HEAD is now at dc30d2a12 Fix js-yaml vulnerability (#7033)
+[2019-06-06 01:00:18] [INFO] git clean -qfdx
+[2019-06-06 01:00:19] [INFO] Local repository is up-to date
+[2019-06-06 01:00:19] [INFO] Cleaning up
+[2019-06-06 01:00:19] [INFO] Deleting old p drive folders
+[2019-06-06 01:00:19] [INFO] Deleting old p drive files
+[2019-06-06 01:00:19] [INFO] Removing old release
+[2019-06-06 01:00:19] [INFO] Clean up finished
+[2019-06-06 01:00:19] [INFO] Checking if build is necessary
+[2019-06-06 01:00:19] [INFO] Current commit hash is dc30d2a128a6653f50812fa84fd7e1fe1501bf6b
+[2019-06-06 01:00:19] [INFO] Last build was created for commit hash 44050df98b00e579e5b5a79c0d76d4d1138b4baa
+[2019-06-06 01:00:19] [INFO] New commits since last build detected - proceed with build
+[2019-06-06 01:00:19] [INFO] Build started
+[2019-06-06 01:00:20] [INFO] 
+[2019-06-06 01:00:20] [INFO] make.py for Arma, modified for Advanced Combat Environment v0.9
+[2019-06-06 01:00:20] [INFO] Build successful
+[2019-06-06 01:00:20] [INFO] Updating build db with latest commit hash
+[2019-06-06 01:00:20] [INFO] Build db successfully updated
+[2019-06-06 01:00:20] [INFO] Build finished
+[2019-06-06 01:00:20] [INFO] Preparing log files for upload
+[2019-06-06 01:00:20] [INFO] Closing log

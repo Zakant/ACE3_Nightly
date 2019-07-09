@@ -1,0 +1,28 @@
+[2019-07-09 08:28:32] [INFO] Running nightly build for branch master
+[2019-07-09 08:28:32] [INFO] Updating local repository
+[2019-07-09 08:28:32] [INFO] git fetch --all
+[2019-07-09 08:28:33] [INFO] Fetching origin
+[2019-07-09 08:28:34] [INFO] git checkout master
+[2019-07-09 08:28:34] [INFO] Your branch is up to date with 'origin/master'.
+[2019-07-09 08:28:34] [INFO] git reset --hard origin/master
+[2019-07-09 08:28:35] [INFO] HEAD is now at e1c650d56 Medical - add dummy cfgVehicle entries for old modules (#7091)
+[2019-07-09 08:28:35] [INFO] git clean -qfdx
+[2019-07-09 08:28:37] [INFO] Local repository is up-to date
+[2019-07-09 08:28:37] [INFO] Cleaning up
+[2019-07-09 08:28:37] [INFO] Deleting old p drive folders
+[2019-07-09 08:28:37] [INFO] Deleting old p drive files
+[2019-07-09 08:28:37] [INFO] Removing old release
+[2019-07-09 08:28:37] [INFO] Clean up finished
+[2019-07-09 08:28:38] [INFO] Checking if build is necessary
+[2019-07-09 08:28:38] [INFO] Current commit hash is e1c650d56ef1c5480f5f8c7633b34c02c60020a9
+[2019-07-09 08:28:38] [INFO] Last build was created for commit hash 44050df98b00e579e5b5a79c0d76d4d1138b4baa
+[2019-07-09 08:28:38] [INFO] New commits since last build detected - proceed with build
+[2019-07-09 08:28:38] [INFO] Build started
+[2019-07-09 08:28:38] [INFO] 
+[2019-07-09 08:28:38] [INFO] make.py for Arma, modified for Advanced Combat Environment v0.9
+[2019-07-09 08:28:38] [INFO] Build successful
+[2019-07-09 08:28:38] [INFO] Updating build db with latest commit hash
+[2019-07-09 08:28:38] [INFO] Build db successfully updated
+[2019-07-09 08:28:38] [INFO] Build finished
+[2019-07-09 08:28:38] [INFO] Preparing log files for upload
+[2019-07-09 08:28:38] [INFO] Closing log
